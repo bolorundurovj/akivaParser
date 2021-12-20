@@ -1,0 +1,29 @@
+{
+  "name": "akivaparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "nearleyc grammar/grammar.ne --out grammar/grammar.js",
+		"test": "jest",
+		"watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolorundurovj/akivaParser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bolorundurovj/akivaParser/issues"
+  },
+  "homepage": "https://github.com/bolorundurovj/akivaParser#readme",
+  "dependencies": {
+    "moo": "^0.5.1",
+    "nearley": "^2.20.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
